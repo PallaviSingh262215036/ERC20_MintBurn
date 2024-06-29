@@ -65,7 +65,7 @@ contract ERC20Token is ERC20 {
 - `constructor()`: Initializes the contract with the token name "DegenToken" and symbol "DGN".
 - `transfer(address to, uint256 amount)`: Transfers amount tokens to the to address.
 - `mint(address to, uint256 amount)`: Mints amount tokens to the to address. Can only be called by the contract owner.
-- `burn(address to, uint256 amount)`: Burns amount tokens from the to address. Can only be called by any user.
+- `burn(address to, uint256 amount)`: Burns amount tokens from the to address. Can be called by any user.
 
 ### License
 This project is licensed under the MIT License 
