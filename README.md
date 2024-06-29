@@ -56,10 +56,10 @@ contract ERC20Token is ERC20 {
 ```
 
 ### Usage
-_ Deploy the contract using Remix IDE or your preferred Solidity development environment.
-_ Once deployed, the contract owner can mint new tokens to any address.
-_ Token holders can transfer tokens to other addresses.
-_ The owner can burn tokens from any address.
+- Deploy the contract using Remix IDE or your preferred Solidity development environment.
+- Once deployed, the contract owner can mint new tokens to any address.
+- Token holders can transfer tokens to other addresses.
+- The owner can burn tokens from any address.
 
 ### Functions
 `constructor()`: Initializes the contract with the token name "DegenToken" and symbol "DGN".
